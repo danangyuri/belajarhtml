@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>document</title>
+</head>
+<body>
+    <h1 class="coltittletop">Buat Akun Baru</h1>
+    <p>Harap menggunakan <em>account</em> lama Anda jika Anda telah membuat pendaftaran sebelumnya.</p>
+    <br>
+    <h2>Login</h2>
+    <pre>
+        <ul>
+                <li> <label for="username">Username</label>         <span><input type="text"></span> </li>
+                <p>             Username yang Anda inginkan (hanya dapat terdiri dari huruf, angka, dan _). Username tidak boleh mengandung spasi.
+                </p>
+                <li> <label for="password">Password</label>         <span><input type="text"></span> </li>
+                <p>             Masukkan password. Password minimal terdiri dari 6 karakter dan case sensitive (A beda dengan a).
+                <li> <label for="ulangpassword">Ulangi Password</label>  <span><input type="text"></span> </li>
+        </ul>
+    </pre>
+    <br>
+    <h2>Identitas</h2>
+    <pre>
+            <ul>
+                    <li> <label for="nama">Nama sesuai identitas</label>         <span><input type="text"></span> </li>
+                    <p>                Nama sesuai yang tertulis di kartu identitas, tanpa gelar akademis/sertifikasi.
+                Nama diawali huruf besar di awal dan setelah spasi, contoh benar: Abc Def, contoh salah: abc def, ABC DEF.</p>
+                    <li> <label for="nama2">Nama sesuai ijazah</label>           <span><input type="text"></span> </li>
+                    <p>                Nama sesuai yang tertulis di kartu identitas, tanpa gelar akademis/sertifikasi.
+                Nama diawali huruf besar di awal dan setelah spasi, contoh benar: Abc Def, contoh salah: abc def, ABC DEF.</p>
+                    <li> <label for="identitas">Jenis identitas</label>             <span><select name="id" id="identitas"><option>--Pilih--</option>
+                                                                                                                <option>KTP</option>
+                                                                                                                <option>SIM</option>
+                                                                                                                <option>Paspor</option>
+                                                                                                                <option>Kartu Pelajar</option></select> </li>
+            
+                    <li> <label for="identitas2">Nomor identitas</label>                 <span><input type="text"></span> </li>
+                    <li> <label for="kewarganegaraan">Kewarganegaraan</label>             <span><select name="id" id="identitas"><option>Indonesia</option>
+                                                                                                                                 <option>Indonesia</option></select>
+                    <li><label for="kelamin">Jenis kelamin</label><input type="radio" name="kelamin" id="m">Pria
+            <input type="radio" name="kelamin" id="f">Wanita</li>
+            <li><label for="date">Tanggal lahir</label>                     <input type="date" name="lahir" id="TL"></li>
+             </ul>
+    </pre>
+    <h2>Kontak</h2>
+    <pre>
+            <li> <label for="alamat">Alamat tetap</label>                 <span><input type="text"></span> </li>
+            <li> <label for="negara">Negara</label>             <span><select name="country" id="ngr">
+                    <option value="">--- Pilih ---</option>
+                    <option value="AF">Afghanistan</option>
+                    <option value="AL">Albania</option>
+                    <option value="DZ">Algeria</option>
+                    <option value="AS">American Samoa</option>
+                    <option value="AD">Andorra</option>
+                    <option value="AO">Angola</option>
+                    <option value="AI">Anguilla</option>
+                    <option value="AQ">Antarctica</option>
+                    <option value="AG">Antigua and Barbuda</option>
+                    <option value="AR">Argentina</option>
+                    <option value="AM">Armenia</option>
+                    <option value="AW">Aruba</option>
+                    <option value="AU">Australia</option>
+                    <option value="AT">Austria</option>
+                    <option value="AZ">Azerbaijan</option>
+                    <option value="BS">Bahamas</option>
+                    <option value="BH">Bahrain</option>
+                    <option value="BD">Bangladesh</option>
+                    <option value="BB">Barbados</option>
+                    <option value="BY">Belarus</option>
+                    <option value="BE">Belgium</option>
+                    <option value="BZ">Belize</option>
+                    <option value="BJ">Benin</option>
+                    <option value="BM">Bermuda</option>
+                    <option value="BT">Bhutan</option>
+                    <option value="BO">Bolivia</option>
+                    <option value="BA">Bosnia and Herzegovina</option>
+                    <option value="BW">Botswana</option>
+                    <option value="BV">Bouvet Island</option>
+                    <option value="BR">Brazil</option>
+                    <option value="IO">British Indian Ocean Territory</option>
+                    <option value="BN">Brunei Darussalam</option>
+                    <option value="BG">Bulgaria</option>
+                    <option value="BF">Burkina Faso</option>
+                    <option value="BI">Burundi</option>
+                    <option value="KH">Cambodia</option>
+                    <option value="CM">Cameroon</option>
+                    <option value="CA">Canada</option>
+                    <option value="CV">Cape Verde</option>
+                    <option value="KY">Cayman Islands</option>
+                    <option value="CF">Central African Republic</option>
+                    <option value="TD">Chad</option>
+                    <option value="CL">Chile</option>
+                    <option value="CN">China</option>
+                    <option value="CX">Christmas Island</option>
+                    <option value="CC">Cocos (Keeling) Islands</option>
+                    <option value="CO">Colombia</option>
+                    <option value="KM">Comoros</option>
+                    <option value="CG">Congo</option>
+                    <option value="CD">Congo, the Democratic Republic of the</option>
+                    <option value="CK">Cook Islands</option>
+                    <option value="CR">Costa Rica</option>
+                    <option value="CI">Cote D'Ivoire</option>
+                    <option value="HR">Croatia</option>
+                    <option value="CU">Cuba</option>
+                    <option value="CY">Cyprus</option>
+                    <option value="CZ">Czech Republic</option>
+                    <option value="DK">Denmark</option>
+                    <option value="DJ">Djibouti</option>
+                    <option value="DM">Dominica</option>
+                    <option value="DO">Dominican Republic</option>
+                    <option value="EC">Ecuador</option>
+                    <option value="EG">Egypt</option>
+                    <option value="SV">El Salvador</option>
+                    <option value="GQ">Equatorial Guinea</option>
+                    <option value="ER">Eritrea</option>
+                    <option value="EE">Estonia</option>
+                    <option value="ET">Ethiopia</option>
+                    <option value="FK">Falkland Islands (Malvinas)</option>
+                    <option value="FO">Faroe Islands</option>
+                    <option value="FJ">Fiji</option>
+                    <option value="FI">Finland</option>
+                    <option value="FR">France</option>
+                    <option value="GF">French Guiana</option>
+                    <option value="PF">French Polynesia</option>
+                    <option value="TF">French Southern Territories</option>
+                    <option value="GA">Gabon</option>
+                    <option value="GM">Gambia</option>
+                    <option value="GE">Georgia</option>
+                    <option value="DE">Germany</option>
+                    <option value="GH">Ghana</option>
+                    <option value="GI">Gibraltar</option>
+                    <option value="GR">Greece</option>
+                    <option value="GL">Greenland</option>
+                    <option value="GD">Grenada</option>
+                    <option value="GP">Guadeloupe</option>
+                    <option value="GU">Guam</option>
+                    <option value="GT">Guatemala</option>
+                    <option value="GN">Guinea</option>
+                    <option value="GW">Guinea-Bissau</option>
+                    <option value="GY">Guyana</option>
+                    <option value="HT">Haiti</option>
+                    <option value="HM">Heard Island and Mcdonald Islands</option>
+                    <option value="VA">Holy See (Vatican City State)</option>
+                    <option value="HN">Honduras</option>
+                    <option value="HK">Hong Kong</option>
+                    <option value="HU">Hungary</option>
+                    <option value="IS">Iceland</option>
+                    <option value="IN">India</option>
+                    <option value="ID" selected="selected">Indonesia</option></li></select>
+            <li><label for="provinsi">Provinsi</label>             <span><select name="province" id=prov>
+                    <option value="">--- Pilih ---</option>
+                    <option value="3">Aceh</option>
+                    <option value="17">Bali</option>
+                    <option value="16">Banten</option>
+                    <option value="9">Bengkulu</option>
+                    <option value="14">DI Yogyakarta</option>
+                    <option value="1">DKI Jakarta</option>
+                    <option value="26">Gorontalo</option>
+                    <option value="32">Irian Jaya Barat</option>
+                    <option value="10">Jambi</option>
+                    <option value="2">Jawa Barat</option>
+                    <option value="13">Jawa Tengah</option>
+                    <option value="15">Jawa Timur</option>
+                    <option value="18">Kalimantan Barat</option>
+                    <option value="19">Kalimantan Selatan</option>
+                    <option value="20">Kalimantan Tengah</option>
+                    <option value="21">Kalimantan Timur</option>
+                    <option value="281">Kalimantan Utara</option>
+                    <option value="12">Kepulauan Bangka Belitung</option>
+                    <option value="7">Kepulauan Riau</option>
+                    <option value="11">Lampung</option>
+                    <option value="29">Maluku</option>
+                    <option value="30">Maluku Utara</option>
+                    <option value="27">Nusa Tenggara Barat</option>
+                    <option value="28">Nusa Tenggara Timur</option>
+                    <option value="31">Papua</option>
+                    <option value="275">Papua Barat</option>
+                    <option value="6">Riau</option>
+                    <option value="33">Sulawesi Barat</option>
+                    <option value="25">Sulawesi Selatan</option>
+                    <option value="23">Sulawesi Tengah</option>
+                    <option value="24">Sulawesi Tenggara</option>
+                    <option value="22">Sulawesi Utara</option>
+                    <option value="5">Sumatera Barat</option>
+                    <option value="8">Sumatera Selatan</option>
+                    <option value="4">Sumatera Utara</option>
+            </select>
+            <li><label for="kota">Provinsi</label>             <span><select name="cities" id=kt>
+                    <option value="smg">Semarang</option>
+                    <option value="so">solo</option>
+                    <option value="byl">Boyolali</option>
+            </select>
+            <li> <label for="alamat3">Alamat saat ini</label>                 <span><input type="text"></span> </li>
+            <li> <label for="telpon">Nomor telepon</label>                 <span><input type="text"></span> </li>
+            Nomor telepon yang dapat dihubungi. Pisahkan dengan , (koma) jika ada beberapa nomor.
+            <li> <label for="hp">Nomor H.P</label>                 <span><input type="text"></span> </li>
+            Nomor <em>handphone</em>. Pisahkan dengan , (koma) jika ada beberapa nomor.
+            <li> <label for="email">Email</label>                 <span><input type="text"></span> </li>
+            Pastikan alamat email Anda benar, email konfirmasi akan dikirim ke alamat email tersebut
+            <li> <label for="email2">Ulangi email</label>                 <span><input type="text"></span> </li>
+     </ul>
+    </pre>
+    <button id="btnSimpan">Simpan</button>
+</body>
+</html>
